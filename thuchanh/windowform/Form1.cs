@@ -16,5 +16,22 @@ namespace windowform
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void phườngXãToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formpx it = new formpx();
+            it.ShowDialog();
+        }
+
+        private void quậnHuyệnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formqh it = new formqh();
+            it.Show();
+        }
     }
 }
